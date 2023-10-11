@@ -93,3 +93,26 @@ function factorial(n) {
 factorial(5);
 */
 ///probabndo commit
+/* 4. Números primos: Crea una función que determine si un número dado es primo o no. 
+function primos(n) {
+  if (n <= 1) {
+    return false;
+  }
+  if (n <= 3) {
+    return true;
+  }
+  if (n % 2 === 0 || n % 3 === 0) {
+    return false;
+  }
+  for (let i = 5; i * i <= n; i += 6) {
+    if (n % i === 0 || n % (i + 2) === 0) return false;
+  }
+  return true;
+}
+
+const numero = 4;
+if (primos(numero)) {
+  console.log(numero + " es un número primo.");
+} else {
+  console.log(numero + " no es un número primo.");
+} */
