@@ -116,3 +116,19 @@ if (primos(numero)) {
 } else {
   console.log(numero + " no es un número primo.");
 } */
+
+//5.Fibonacci: Escribe una función que genere los primeros n números de la secuencia de Fibonacci.
+
+/* function fib(n) {
+  const series = [0, 1];
+  for (let i = 2; i <= n; i++) {
+    const next = series[i - 1] + series[i - 2];
+    series.push(next);
+  }
+  return series;
+}
+
+const fibonacciSeries = fib(1);
+console.log(fibonacciSeries);
+ */
+
