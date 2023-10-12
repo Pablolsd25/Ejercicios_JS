@@ -132,3 +132,11 @@ const fibonacciSeries = fib(1);
 console.log(fibonacciSeries);
  */
 
+//6.Invertir una cadena: Escribe una función que invierta una cadena de texto.
+
+function Invertir(cadena) {
+  return cadena.split("").reverse().join("");
+}
+
+const newInvertir = Invertir("Perro");
+console.log(newInvertir);
